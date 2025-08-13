@@ -1,1 +1,0 @@
-# django_story_generator

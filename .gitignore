@@ -1,0 +1,52 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Environment variables
+.env
+
+# Media files
+media/uploads/
+media/generated_images/
+media/combined_images/
+
+# Static files collected for production
+staticfiles/
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Python
+*.egg-info/
+dist/
+build/
+
+# Node modules (if using any JS build tools)
+node_modules/
+
+# Temporary files
+*.tmp
+*.temp

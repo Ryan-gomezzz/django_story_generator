@@ -1,0 +1,41 @@
+# Core Django
+Django==5.0.4
+django-cors-headers==4.3.1
+
+# Environment variables
+python-decouple==3.8
+
+# LangChain and AI
+langchain==0.2.6
+langchain-community==0.2.6
+langchain-openai==0.1.8
+langchain-ollama==0.1.1
+
+# Image Processing
+Pillow==10.3.0
+opencv-python==4.9.0.80
+
+# Audio Processing
+openai-whisper==20231117
+librosa==0.10.2
+pydub==0.25.1
+
+# HTTP requests
+requests==2.31.0
+
+# Async support
+aiohttp==3.9.5
+
+# File handling
+python-multipart==0.0.9
+
+# Utilities
+numpy==1.26.4
+python-dotenv==1.0.1
+
+# Development tools
+black==24.4.2
+flake8==7.0.0
+
+# Production server
+gunicorn==22.0.0
